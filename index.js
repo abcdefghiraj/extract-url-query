@@ -1,7 +1,7 @@
 let urlExtractor = {
     fillObject : function(url,obj){
         var parsedObj = this.extractObject(url);
-        obj.objectsWithoutKeys = parsedObj.objectsWithoutKeys;
+        obj["objectsWithoutKeys"] = parsedObj.objectsWithoutKeys;
         Object.keys(obj).map(x => {
             obj[x] = parsedObj[x];
         });
