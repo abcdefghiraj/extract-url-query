@@ -16,12 +16,12 @@ This has 2 methods :
             lastName:undefined,
             phoneNumber:undefined
         };
-        urlExtractor.fillObject('google.com?name=John&lastName=Doe&address=not%20required,objectToBeFilled);
+        urlExtractor.fillObject('google.com?name=John&lastName=Doe&address=not%20required',objectToBeFilled);
         // => (objectToBeFilled) {name:"John",lastName:"Doe",phoneNumber:undefined}
     ```
 - extractObject(url)
     ```node
-        var obj = urlExtractor.fillObject('google.com?name=John&lastName=Doe&address=not%20required&blah');
+        var obj = urlExtractor.extractObject('google.com?name=John&lastName=Doe&address=not%20required&blah');
         => (obj) {name:"John",lastName:"Doe",address:"not required",objectsWithoutKeys:["blah"]}
     ```
 Suggestions welcome.
