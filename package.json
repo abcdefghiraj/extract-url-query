@@ -1,0 +1,24 @@
+{
+  "name": "extract-url-query",
+  "version": "1.0.0",
+  "description": "Extract object from url query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A4Abhiraj/extract-url-query.git"
+  },
+  "keywords": [
+    "extract",
+    "query",
+    "url"
+  ],
+  "author": "A4Abhiraj",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/A4Abhiraj/extract-url-query/issues"
+  },
+  "homepage": "https://github.com/A4Abhiraj/extract-url-query#readme"
+}
