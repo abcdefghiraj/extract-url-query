@@ -1,6 +1,6 @@
 {
   "name": "extract-url-query",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extract object from url query",
   "main": "index.js",
   "scripts": {
